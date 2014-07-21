@@ -1,6 +1,11 @@
 {
 	"name" : "sasedev/doctrine-dbal-pgsql-types",
 	"description" : "Custom Doctrine's PostgreSQL types",
+	"keywords" : [
+		"postgresql",
+		"doctrine",
+		"dbal"
+	],
 	"type" : "library",
 	"license" : "MIT",
 	"authors" : [{
