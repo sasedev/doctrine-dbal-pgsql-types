@@ -1,0 +1,31 @@
+{
+	"name" : "sasedev/doctrine-dbal-pgsql-types",
+	"description" : "Custom Doctrine's PostgreSQL types",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Salah Abdelkader Seif Eddine",
+			"email" : "seif.salah@gmail.com"
+		}
+	],
+	"autoload" : {
+		"psr-0" : {
+			"SASEdev\\Doctrine\\DBAL\\Pgsql\\Types\\" : "src"
+		}
+	},
+	"require" : {
+		"php" : ">=5.3.3",
+		"doctrine/dbal" : "~2.0"
+	},
+	"target-dir" : "SASEdev/doctrine-dbal-pgsql-types",
+	"config" : {
+		"bin-dir" : "bin",
+		"process-timeout" : 1200
+	},
+	"extra" : {
+		"branch-alias" : {
+			"dev-master" : "1.0-dev"
+		}
+	},
+	"minimum-stability" : "stable"
+}
