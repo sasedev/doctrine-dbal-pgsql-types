@@ -10,7 +10,7 @@
 	],
 	"autoload" : {
 		"psr-0" : {
-			"SASEdev\\Doctrine\\DBAL\\Pgsql\\Types\\" : "src"
+			"SASEdev" : "src/"
 		}
 	},
 	"require" : {
