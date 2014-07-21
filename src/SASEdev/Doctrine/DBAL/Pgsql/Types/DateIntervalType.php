@@ -16,7 +16,7 @@ class DateIntervalType extends Type
      *
      * @var string
      */
-    const INTERVAL = 'interval';
+    const DATEINTERVAL = 'interval';
 
     /**
      * (non-PHPdoc)
@@ -25,7 +25,7 @@ class DateIntervalType extends Type
      */
     public function getName()
     {
-        return self::INTERVAL;
+        return self::DATEINTERVAL;
     }
 
 
