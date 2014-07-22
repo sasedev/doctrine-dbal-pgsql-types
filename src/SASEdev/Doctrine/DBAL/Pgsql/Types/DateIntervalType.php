@@ -99,6 +99,8 @@ class DateIntervalType extends Type
 
         if ($y !== null || $m !== null || $d !== null) {
             $p = $y.$m.$d;
+        } else {
+            $p = '0Y0M0D';
         }
 
 
@@ -119,9 +121,11 @@ class DateIntervalType extends Type
         }
 
         if ($h !== null || $i !== null || $s !== null) {
-            $t = 'T'.$h.$i.$s;
+            $t = $h.$i.$s;
+        } else {
+            $t = '0H0M0S';
         }
-        $di = new \DateInterval("P$p$t");
+        $di = new \DateInterval('P'.$p.'T'.$t);
 
         return $di;
     }
