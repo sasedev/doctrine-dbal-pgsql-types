@@ -1,4 +1,4 @@
-doctrine-dbal-pgsql-types
+sasedev/doctrine-dbal-pgsql-types
 =========================
 
 Custom Doctrine's PostgreSQL DBAL Types
