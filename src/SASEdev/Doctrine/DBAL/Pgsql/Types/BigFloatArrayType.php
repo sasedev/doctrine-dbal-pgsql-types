@@ -9,7 +9,7 @@ namespace SASEdev\Doctrine\DBAL\Pgsql\Types;
 class BigFloatArrayType extends AbstractArrayType
 {
 
-    const BIGFLOATARRAY = 'float8[]';
+    const BIGFLOATARRAY = 'bigfloat[]';
 
     protected $name = self::BIGFLOATARRAY;
 

@@ -16,7 +16,7 @@ class BigFloatType extends Type
      *
      * @var string
      */
-    const BIGFLOAT = 'float8';
+    const BIGFLOAT = 'bigfloat';
 
     /**
      * (non-PHPdoc)
